@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Lab2Web
 
 Repository ini berisi hasil Praktikum 2 HTML Lanjutan.
@@ -35,6 +34,26 @@ Lab2Web/
 │   ├── audio.mp3
 │   └── video.mp4
 └── README.md
-=======
-# Weblab2
->>>>>>> e0fd8e9a47ee9e788d8abcf6006bad54cea57d21
+
+## Dokumentasi Screenshot
+
+### 1. Tabel Mahasiswa
+![Tabel Mahasiswa](screenshot/Table%20Mahasiswa.png)
+
+### 2. Form Registrasi
+![Form Registrasi](screenshot/Form%20Registrasi.png)
+
+### 3. Validasi Form
+![Validasi Form](screenshot/Validasi%20ketika%20form%20dikirim%20dikir.png)
+
+### 4. Komponen Form
+![Komponen Form](screenshot/Radio%20button.png)
+
+### 5. Audio dan Video
+![Audio Video](screenshot/Audio%20Video.png)
+
+### 6. Halaman Biodata
+![Biodata](screenshot/Halaman%20biodata.png)
+
+### 7. Repository GitHub
+![Repository](screenshot/Repository%20github.png)
