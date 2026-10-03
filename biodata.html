@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Biodata Mahasiswa</h1>
+        <p>Praktikum 2 HTML Lanjutan</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a> |
+        <a href="biodata.html">Biodata</a>
+    </nav>
+
+    <main>
+
+        <section id="biodata">
+
+            <h2>Data Mahasiswa</h2>
+
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Keterangan</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>NIM</td>
+                        <td>31241001</td>
+                    </tr>
+
+                    <tr>
+                        <td>Nama</td>
+                        <td>Eka Maulana</td>
+                    </tr>
+
+                    <tr>
+                        <td>Program Studi</td>
+                        <td>Informatika</td>
+                    </tr>
+
+                    <tr>
+                        <td>Universitas</td>
+                        <td>Universitas Pelita Bangsa</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <br>
+
+        <section id="form">
+
+            <h2>Form Biodata</h2>
+
+            <form>
+
+                <label for="nama">Nama</label><br>
+                <input
+                    type="text"
+                    id="nama"
+                    name="nama"
+                    required
+                    minlength="3"
+                >
+
+                <br><br>
+
+                <label for="email">Email</label><br>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="umur">Umur</label><br>
+                <input
+                    type="number"
+                    id="umur"
+                    name="umur"
+                    min="17"
+                    max="60"
+                    required
+                >
+
+                <br><br>
+
+                <label for="prodi">Program Studi</label><br>
+
+                <select id="prodi" name="prodi" required>
+
+                    <option value="">-- Pilih --</option>
+
+                    <option value="informatika">
+                        Informatika
+                    </option>
+
+                    <option value="si">
+                        Sistem Informasi
+                    </option>
+
+                </select>
+
+                <br><br>
+
+                <label for="alamat">Alamat</label><br>
+
+                <textarea
+                    id="alamat"
+                    name="alamat"
+                    rows="5"
+                    cols="40"
+                    required
+                ></textarea>
+
+                <br><br>
+
+                <button type="submit">Simpan</button>
+                <button type="reset">Reset</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Teknik Informatika</p>
+    </footer>
+
+</body>
+</html>

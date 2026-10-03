@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 Web - HTML Lanjutan</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Praktikum 2 HTML Lanjutan</h1>
+        <p>Universitas Pelita Bangsa</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a> |
+        <a href="biodata.html">Biodata</a>
+    </nav>
+
+    <main>
+
+        <!-- TABEL -->
+        <section>
+            <h2>1. Data Mahasiswa</h2>
+
+            <table border="1">
+                <caption>Data Mahasiswa</caption>
+
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>NIM</th>
+                        <th>Nama</th>
+                        <th>Program Studi</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>31241001</td>
+                        <td>Andi</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>31241002</td>
+                        <td>Budi</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>31241003</td>
+                        <td>Citra</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>31241004</td>
+                        <td>Dedi</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Jumlah Mahasiswa</td>
+                        <td>4</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <br>
+
+        <!-- FORM -->
+        <section>
+            <h2>2. Form Registrasi Mahasiswa</h2>
+
+            <form>
+
+                <label for="nama">Nama Lengkap</label><br>
+                <input 
+                    type="text" 
+                    id="nama" 
+                    name="nama"
+                    required
+                    minlength="3"
+                >
+
+                <br><br>
+
+                <label for="email">Email</label><br>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="password">Password</label><br>
+                <input 
+                    type="password" 
+                    id="password" 
+                    name="password"
+                    required
+                    minlength="6"
+                >
+
+                <br><br>
+
+                <label for="tanggal">Tanggal Lahir</label><br>
+                <input 
+                    type="date" 
+                    id="tanggal" 
+                    name="tanggal"
+                    required
+                >
+
+                <br><br>
+
+                <!-- RADIO -->
+                <h3>Jenis Kelamin</h3>
+
+                <input type="radio" id="laki" name="jk" value="L">
+                <label for="laki">Laki-laki</label>
+
+                <input type="radio" id="perempuan" name="jk" value="P">
+                <label for="perempuan">Perempuan</label>
+
+                <br><br>
+
+                <!-- CHECKBOX -->
+                <h3>Keahlian</h3>
+
+                <input type="checkbox" id="html" name="skill" value="HTML">
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="css" name="skill" value="CSS">
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="js" name="skill" value="JavaScript">
+                <label for="js">JavaScript</label>
+
+                <br><br>
+
+                <!-- SELECT -->
+                <label for="prodi">Program Studi</label><br>
+
+                <select id="prodi" name="prodi" required>
+                    <option value="">-- Pilih Program Studi --</option>
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                </select>
+
+                <br><br>
+
+                <!-- TEXTAREA -->
+                <label for="alamat">Alamat</label><br>
+
+                <textarea 
+                    id="alamat" 
+                    name="alamat"
+                    rows="5"
+                    cols="40"
+                    required
+                ></textarea>
+
+                <br><br>
+
+                <button type="submit">Daftar</button>
+                <button type="reset">Reset</button>
+
+            </form>
+        </section>
+
+        <br>
+
+        <!-- MULTIMEDIA -->
+        <section>
+            <h2>3. Multimedia</h2>
+
+            <h3>Audio</h3>
+
+            <audio controls>
+                <source src="media/audio.mp3" type="audio/mpeg">
+                Browser tidak mendukung audio.
+            </audio>
+
+            <h3>Video</h3>
+
+            <video controls width="480">
+                <source src="media/video.mp4" type="video/mp4">
+                Browser tidak mendukung video.
+            </video>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Teknik Informatika - Universitas Pelita Bangsa</p>
+    </footer>
+
+</body>
+</html>
