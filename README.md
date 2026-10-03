@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Lab2Web
 
 Repository ini berisi hasil Praktikum 2 HTML Lanjutan.
@@ -34,3 +35,6 @@ Lab2Web/
 │   ├── audio.mp3
 │   └── video.mp4
 └── README.md
+=======
+# Weblab2
+>>>>>>> e0fd8e9a47ee9e788d8abcf6006bad54cea57d21
