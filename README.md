@@ -1,59 +1,25 @@
 # Lab2Web
 
-Repository ini berisi hasil Praktikum 2 HTML Lanjutan.
+### Table Mahasiswa
 
-## Identitas
+![Gambar1](screenshot/Table%20Mahasiswa.png)
 
-- Nama: Eka Maulana
-- Program Studi: Informatika
-- Universitas: Universitas Pelita Bangsa
+### Form Registasi 
 
-## Materi Praktikum
+![Gambar2](screenshot/Form%20Registasi.png)
 
-Praktikum 2 membahas:
+### Validasi Form
+![Gambar3](screenshot/Validasi%20ketika%20form%20dikirim%20kosong.png)
 
-1. Tabel HTML
-2. Struktur tabel dengan thead, tbody, dan tfoot
-3. Form HTML
-4. Radio button
-5. Checkbox
-6. Select
-7. Textarea
-8. Semantic HTML
-9. Multimedia HTML
-10. Validasi form dasar
-11. Proyek mini biodata mahasiswa
+### Komponen Form
+![Gambar4](screenshot/Radio%20button+checbox+select+textarea.png)
 
-## Struktur Folder
+### Audio dan video 
+![Gambar5](screenshot/Audio%20Video.png)
 
-```text
-Lab2Web/
-├── index.html
-├── biodata.html
-├── media/
-│   ├── audio.mp3
-│   └── video.mp4
-└── README.md
+### Halaman biodata 
+![Gambar6](screenshot/Halaman%20biodata.png)
 
-## Dokumentasi Screenshot
+### Repository github
+![Gambar7](screenshot/Repostoriy%20github.png)
 
-### 1. Tabel Mahasiswa
-![Tabel Mahasiswa](screenshot/Table%20Mahasiswa.png)
-
-### 2. Form Registrasi
-![Form Registrasi](screenshot/Form%20Registrasi.png)
-
-### 3. Validasi Form
-![Validasi Form](screenshot/Validasi%20ketika%20form%20dikirim%20dikir.png)
-
-### 4. Komponen Form
-![Komponen Form](screenshot/Radio%20button.png)
-
-### 5. Audio dan Video
-![Audio Video](screenshot/Audio%20Video.png)
-
-### 6. Halaman Biodata
-![Biodata](screenshot/Halaman%20biodata.png)
-
-### 7. Repository GitHub
-![Repository](screenshot/Repository%20github.png)
